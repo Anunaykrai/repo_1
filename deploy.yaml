@@ -7,7 +7,7 @@ on:
  contents: read
  pages: write 
  id-token: write
- concurrency:
+ concurrency: 
  group: "pages"
  cancel-in-progress:false
  jobs:
